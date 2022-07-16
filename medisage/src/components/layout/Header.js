@@ -10,19 +10,19 @@ const Header = () => {
 
       <ul className="nav-items">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/">
+          <Link className="nav-link active"  to="/">
             Home
           </Link>
         </li>
 
         <li className="nav-item">
-          <Link className="nav-link" aria-current="page" to="/schedule">
+          <Link className="nav-link"  style={{paddingLeft: 13, textDecoration: 'none'}} to="/schedule">
             Schedule
           </Link>
         </li>
 
         <li className="nav-item">
-          <Link className="nav-link" aria-current="page" to="/about">
+          <Link className="nav-link"  to="/about">
             About
           </Link>
         </li>
